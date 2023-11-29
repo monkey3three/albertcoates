@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  cursor: none;
+}
+p {
+  font-size: 1em;
+  text-align: justify;
+  line-height: 2em;
+  padding: 0 2em;
+  margin-bottom: 1em;
+}
+#flashlight {
+  --Xpos: 50vw;
+  --Ypos: 50vh;
+}
+#flashlight:before {
+  content: "";
+  display: block;
+  width: 100%;
